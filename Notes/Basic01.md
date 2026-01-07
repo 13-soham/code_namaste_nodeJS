@@ -40,3 +40,11 @@ using require(), all the code of the module/file wrapped inside a function then 
 })();
 ```
 
+# Thread Pool in Libuv
+A group of threads in background used to perform heavy or blocking task, otherwise main thread can be blocked. There are 4 threads for inside libuv
+
+# what happens if 10 fs opration all at once
+first 4 fs operations are goes inside thread pool and ocupy, and there is another Queue name waiting queue inside libuv, where remaining 6 operations are waiting, after finishing 1st 4 fs, other 4 are goes there and 2 are waiting...
+
+# what operation performs inside Thread Pool
+fs, dns_lookup, crypto operations and users specified input
