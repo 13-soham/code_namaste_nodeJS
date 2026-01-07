@@ -2,7 +2,7 @@
 Node js is the opensource javascript runtime enviroment, built on Chrome's V8 JS engine
 
 # Server
-server is like a cpu/computer which are located remotely
+server is like a cpu/computer which are located remotely, also a server can represent as a hardware and software in different context
 
 # V8 Engine
 V8 is google open source high performance js and web-assembly engine writen in c++, it is used in node js and chrome, it implements ECMAscript and webassembly
