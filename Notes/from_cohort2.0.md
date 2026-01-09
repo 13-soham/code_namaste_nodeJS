@@ -94,7 +94,7 @@ UDP(User Datagram Protocol) is a connection less protocol that priortizes speed 
 
 UDP does not do handshake, Packets are sent independently without waiting for confirmation
 
-Mordern Protocol used combination of UCP and TCP to optimize performance and reliability.
+Mordern Protocol used combination of UDP and TCP to optimize performance and reliability.
 
 3 types of HTTP protocol => HTTP 1.1, HTTP 2.0 [TCP base], HTTP 3.0 [QUIC (quick UDP internet Connections) based]
 

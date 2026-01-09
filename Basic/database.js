@@ -1,0 +1,1 @@
+const URI = "mongodb+srv://NamasteNodeJs:hosterdb9432@namastenodejs.exkc5xt.mongodb.net/";
